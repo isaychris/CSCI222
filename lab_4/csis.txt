@@ -1,0 +1,127 @@
+1. Testing S1: String default ctor.
+
+""  Length = 0
+
+
+2. Testing S2: String one arg (char *) ctor.
+
+"ABC"  Length = 3
+
+
+3. Testing S3: String one arg (char) ctor.
+
+"Z"  Length = 1
+
+
+4. Testing S4: String one arg (int) ctor.
+
+""  Length = 0
+
+
+5. Testing S5, T5: String copy ctor.
+
+"Purple Rain"  Length = 11
+"Purple Rain"  Length = 11
+
+
+6. Testing S6: String two arg (char, int) ctor.
+
+"**********"  Length = 10
+
+
+7. Testing S7, T7, U7: String assignment.
+
+"Sally Ride"  Length = 10
+"Sally Ride"  Length = 10
+"Sally Ride"  Length = 10
+
+
+8. Testing S8: String assignment.
+
+"ABC"  Length = 3
+
+
+9. Testing S9: Implicit type conversion.
+
+"ABC"  Length = 3
+
+
+10. Testing S10, T10, U10: String concatenation.
+
+"ABCDEFGHI"  Length = 9
+"XABCDEFGHI"  Length = 10
+
+
+11. Testing S11, T11: String concatenation.
+
+"ABCDABCD"  Length = 8
+"BCD"  Length = 3
+
+
+12. Testing S12, T12: String unary operator.
+
+"Unary +"  Length = 7
+"UNARY +"  Length = 7
+"UNARY +"  Length = 7
+
+
+13. Testing S13, T13: String comparison operators.
+
+"ABC"  Length = 3
+"ABCD"  Length = 4
+
+== False
+!= True
+<  True
+<= True
+>  True
+>= False
+
+
+14. Testing S14: Overloaded subscript operator.
+
+"D,,!jt!gvo/"  Length = 11
+
+
+15. Testing S15: Pointer notation.
+
+BCDEF
+
+
+16. Testing S16, T16, U16, V16, W16, X16, Y16, Z16: Increment and decrement operators.
+
+"BCD"  Length = 3
+"BCD"  Length = 3
+"ABC"  Length = 3
+"ABC"  Length = 3
+"@AB"  Length = 3
+"@AB"  Length = 3
+"ABC"  Length = 3
+"ABC"  Length = 3
+
+
+17. Testing S17, T17: Substr function.
+
+"All You Need Is Love"  Length = 20
+"You Need"  Length = 8
+
+
+18. Testing S18, T18: Output function.
+
+Red-Green-Blue
+
+
+19. Testing S19, T19, U19: ReverseString class.
+
+"Computer"  Length = 8
+"retupmoC"  Length = 8
+"Computer"  Length = 8
+
+
+20. Testing S20, T20, U20: CaseString class.
+
+"BaLLooN"  Length = 7  Lower = balloon  Upper = BALLOON
+"BaLLooN"  Length = 7  Lower = balloon  Upper = BALLOON
+"BaLLooN"  Length = 7  Lower = balloon  Upper = BALLOON
+
+
